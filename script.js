@@ -1,3 +1,5 @@
+ var x = "Hello World! My First JS code";
+ 
  var message="In Global";
 
  var a = function  (){
@@ -12,9 +14,9 @@
  }
  a();
 
- //  var b= function (){
- // 	console.log("message inside b:" +message)
- // }
+  var b= function (){
+ 	console.log("message inside b:" +message)
+ }
 
- // b();
+ b();
 
