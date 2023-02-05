@@ -3,3 +3,4 @@
  	var message="Inside a";
  	console.log("message a:" +message)
  }
+ a();
