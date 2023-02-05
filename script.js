@@ -1,5 +1,5 @@
  var message="In Global";
- var message function a (){
+ var a = function  (){
  	var message="Inside a";
  	console.log("message a:" +message)
  }
