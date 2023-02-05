@@ -25,6 +25,6 @@
  const m = 21;
   var p=function i() {
       console.log("\n"+n);
-      console.log("\n Age is "+m);
+      console.log(" Age is "+m);
   }
   p();
