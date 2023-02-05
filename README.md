@@ -1,2 +1,2 @@
 # JavaScript
-JS codes snippets
+JS codes snippets 
