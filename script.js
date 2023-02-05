@@ -4,3 +4,9 @@
  	console.log("message a:" +message)
  }
  a();
+
+ var b= function (){
+ 	console.log("message inside b:" +message)
+ }
+
+ b();
