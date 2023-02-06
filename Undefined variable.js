@@ -1,5 +1,5 @@
 var c;
-c= 21;
+// c= 21;
 console.log(c);
 
 if(c==undefined){
