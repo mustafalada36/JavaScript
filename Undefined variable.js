@@ -13,3 +13,10 @@ if (c==undefined) {
 else{
 	console.log("Value is Defined");
 }
+
+
+
+
+// Note:-
+// Types of JAVASCRIPT (Built in)
+// 7 Types 1 is object(Collection of names,or values pair) and 6 are primitives(single or immutable(that can't be change))
