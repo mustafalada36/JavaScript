@@ -14,4 +14,4 @@ for (a; a < 20; a++) {
     console.log(a);
  
 }
-console.log(sum);
+console.log("\nThe Sum is:" +sum);
