@@ -1,3 +1,3 @@
 
-var student= new object();
+var student= new Object();
 console.log(student);
