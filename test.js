@@ -11,7 +11,7 @@ var sum=0;
 let a=10;
 for (a; a < 20; a++) {
   sum =sum +a;
-    console.log(a);
+    // console.log(a);
  
 }
 console.log("\nThe Sum is:" +sum);
