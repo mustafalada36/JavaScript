@@ -11,6 +11,7 @@ student.bstudent = new Object();
 student.bstudent.firstname= "Pasha";
 console.log(student.bstudent);
 // OR by Second Way
-student[BStudentFirstName] = "Nauman";
-console.log("BStudentFirstName");
+var BStudentFirstName = "Nauman";
+student[BStudentFirstName] = 10;
+console.log("B Students are:"+student[BStudentFirstName]);
 
