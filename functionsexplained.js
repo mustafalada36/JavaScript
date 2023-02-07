@@ -11,5 +11,7 @@
 	function makemultiplier (multiplier){
 		var myFunc = function (c){
 			return multiplier*c;
-		}
+		};
+
+		return myFunc;
 	}
