@@ -4,5 +4,12 @@
 //   console.log("Hello");
 // }
 
+// let a=10;
+// console.log(a++);
+
 let a=10;
-console.log(a++);
+for (a; i < 20; i++) {
+  setTime(){
+    console
+  }
+}
