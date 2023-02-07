@@ -15,3 +15,5 @@
 
 		return myFunc;
 	}
+	var multiplyby3 =makemultiplier(3);
+	console.log(multiplyby3(3));
