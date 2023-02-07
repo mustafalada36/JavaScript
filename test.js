@@ -9,7 +9,7 @@
 
 let a=10;
 for (a; i < 20; i++) {
-  setTime(a){
+  
     console.log(a);
-  }
+ 
 }
