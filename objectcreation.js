@@ -9,6 +9,8 @@ console.log(student.name);
 
 student.bstudent = new Object();
 student.bstudent.firstname= "Pasha";
-// OR by Second Way
-student["BStudent FirstName"] = "Nauman";
 console.log(student.bstudent);
+// OR by Second Way
+student[BStudentFirstName] = "Nauman";
+console.log("BStudentFirstName");
+
