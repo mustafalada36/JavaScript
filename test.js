@@ -8,7 +8,7 @@
 // console.log(a++);
 
 let a=10;
-for (a; i < 20; i++) {
+for (a; a < 20; a++) {
   
     console.log(a);
  
