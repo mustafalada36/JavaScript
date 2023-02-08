@@ -9,3 +9,5 @@ var b = 5;
 console.log("After:")
 console.log(a);
 console.log(b);
+
+//in Function Pass by value
