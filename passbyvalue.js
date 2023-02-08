@@ -10,6 +10,8 @@ console.log("After:")
 console.log(a);
 console.log(b);
 
+
+console.log("\n INTO FUNCTIONS");
 //in Function Pass by value
 function multiply(multi) {
 	console.log(multi);
