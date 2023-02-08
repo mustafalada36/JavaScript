@@ -13,14 +13,16 @@ console.log(a);
 console.log(b);
 
 
-// console.log("\n INTO FUNCTIONS");
-// //in Function Pass by value
-// function multiply(multi) {
-// 	console.log(multi);
-// 	multi=8;
-// 	console.log(multi);
+console.log("\n INTO FUNCTIONS");
+//in Function Pass by References
+function multiply(multi) {
+	console.log(multi);
+	multi.name=8;
+	console.log(multi);
 
-// }
-// 	var value = 2;
-// 	multiply(value);
-// 	console.log(value);
+}
+	var value ={
+	name:10
+	};
+	multiply(value);
+	console.log(value);
