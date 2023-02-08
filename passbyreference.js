@@ -1,13 +1,13 @@
 //Objects can be passed by References
 
 var a ={
-	name:10;
+	name:10
 };
 var b =a;
 console.log(a);
 console.log(b);
 
-var b.name = 5;
+b.name = 5;
 console.log("After:")
 console.log(a);
 console.log(b);
