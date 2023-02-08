@@ -11,3 +11,4 @@
 	};
 	console.log(student);
 	console.log("B Students are:"+student.bstudent.noofbstudents);
+	console.log(student.Name)
