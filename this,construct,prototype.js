@@ -17,4 +17,7 @@
 		var myCircle = new Circle(10);
 		console.log(myCircle);
 
+		var myOtherCircel = new Circle(20);
+		console.log(myOtherCircel);
+
 		
