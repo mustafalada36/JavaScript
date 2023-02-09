@@ -29,12 +29,12 @@
 
 	 // console.log(names[1].name);
 	 var myObject = {
-	 	name:"Ali"
+	 	name:"Ali",
 	  
-	 	name:"Ahmad"
+	 	course:"JS",
 	
-	 	name:"Muhammad"
+	 	Platform:"Coursera"
 	 };
 	 for(var prop in myObject){
-	 	console.log(prop +":" +name);
+	 	console.log(prop +":" +myObject[prop]);
 	 }
