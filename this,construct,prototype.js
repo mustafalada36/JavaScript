@@ -8,4 +8,4 @@
 	};
 
 		var myCircle = new Circle(20);
-		console.log(myCircle);
+		console.log(myCircle.getArea);
