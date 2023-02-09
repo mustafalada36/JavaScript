@@ -15,14 +15,26 @@
 	 //Another way for creating array
 
 	 // var names = ["Ali", "Ahmad","Muhammad"];
-	 var names = [{
+	 // var names = [{
+	 // 	name:"Ali"
+	 // }
+	 // , { 
+	 // 	name:"Ahmad"
+	 // }
+	 // ,
+	 // {
+	 // 	name:"Muhammad"
+	 // }];
+
+
+	 // console.log(names[1].name);
+	 var myObject = {
 	 	name:"Ali"
-	 }
-	 , { 
+	  
 	 	name:"Ahmad"
-	 }
-	 ,
-	 {
+	
 	 	name:"Muhammad"
-	 }];
-	 console.log(names[1].name);
+	 };
+	 for(var prop in myObject){
+	 	console.log(prop +":" +name);
+	 }
