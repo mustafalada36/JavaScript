@@ -1,13 +1,28 @@
 	 
-	 var array = new Array();
-	 array[0]= "Mustafa";
-	 array[1]= 21;
-	 array[2]= {
+	 // var array = new Array();
+	 // array[0]= "Mustafa";
+	 // array[1]= 21;
+	 // array[2]= {
+	 // 	name:"Ali"
+
+	 // };
+	 // array[3] = function f1(value) {
+	 // 	console.log("The Value is: ");
+	 // }
+
+	 // console.log(array[2]);
+
+	 //Another way for creating array
+
+	 // var names = ["Ali", "Ahmad","Muhammad"];
+	 var names = [{
 	 	name:"Ali"
-
-	 };
-	 array[3] = function f1(value) {
-	 	console.log("The Value is: ");
 	 }
-
-	 console.log(array[2]);
+	 , { 
+	 	name:"Ahmad"
+	 }
+	 ,
+	 {
+	 	name:"Muhammad"
+	 }];
+	 console.log(names.name);
