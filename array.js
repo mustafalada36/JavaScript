@@ -25,4 +25,4 @@
 	 {
 	 	name:"Muhammad"
 	 }];
-	 console.log(names.name);
+	 console.log(names[1].name);
