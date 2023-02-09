@@ -6,8 +6,8 @@
 	 	name:"Ali"
 
 	 };
-	 array[3] = function (value) {
+	 array[3] = function f1(value) {
 	 	console.log("The Value is: ");
 	 }
 
-	 console.log(array);
+	 console.log(array[2]);
