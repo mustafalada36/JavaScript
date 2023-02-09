@@ -8,5 +8,5 @@
 		};
 	};
 
-		var myCircle = new Circle(20);
-		console.log(myCircle.getArea);
+		var myCircle = new Circle(10);
+		console.log(myCircle.getArea());
