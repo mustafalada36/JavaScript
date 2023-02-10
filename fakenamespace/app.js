@@ -1,3 +1,3 @@
 		
-		sayHello();
-		sayHi();
+		Markgreeter.sayHello();
+		Woodgreeter.sayHi();

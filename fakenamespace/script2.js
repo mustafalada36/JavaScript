@@ -1,4 +1,6 @@
-var name = "Ahmad";
-	function sayHi(argument) {
-		console.log("Hi"+name);
+var Woodgreeter = {};
+
+	 Woodgreeter.name = "Wood";
+	Woodgreeter.sayHi =  function () {
+		console.log("Hi :"+Woodgreeter.name);
 	}

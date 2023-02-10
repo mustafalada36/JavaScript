@@ -1,4 +1,7 @@
-	var name = "Ali";
-	function sayHello() {
-		console.log("Hello"+name);
+		var Markgreeter = {};
+
+	 Markgreeter.name = "Mark";
+	Markgreeter.sayHello =  function () {
+		console.log("Hello : "+Markgreeter.name);
 	}
+
