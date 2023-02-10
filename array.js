@@ -14,7 +14,7 @@
 
 	 //Another way for creating array
 
-	 // var names = ["Ali", "Ahmad","Muhammad"];
+	 var names = ["Ali", "Ahmad","Muhammad"];
 	 // var names = [{
 	 // 	name:"Ali"
 	 // }
@@ -25,16 +25,18 @@
 	 // {
 	 // 	name:"Muhammad"
 	 // }];
-
+	  for(var name in names){
+	 	console.log("Hello:" +names[name]);
+	 }
 
 	 // console.log(names[1].name);
-	 var myObject = {
-	 	name:"Ali",
+	 // var myObject = {
+	 // 	name:"Ali",
 	  
-	 	course:"JS",
+	 // 	course:"JS",
 	
-	 	Platform:"Coursera"
-	 };
-	 for(var prop in myObject){
-	 	console.log(prop +":" +myObject[prop]);
-	 }
+	 // 	Platform:"Coursera"
+	 // };
+	 // for(var prop in myObject){
+	 // 	console.log(prop +":" +myObject[prop]);
+	 // }
