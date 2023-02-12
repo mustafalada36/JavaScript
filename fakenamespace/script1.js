@@ -2,7 +2,7 @@
 
 	// ( function (){ })();
 	// using IIFE
-
+	//Used for the global access of variable like 
 
 
 
