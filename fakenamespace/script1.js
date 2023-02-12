@@ -2,7 +2,7 @@
 
 	// ( function (){ })();
 	// using IIFE
-	//Used for the global access of variable like we want to use the object , function, variable of all of these are of same value type
+	//Used for the global access of variable like we want to use the object , function, variable of all of these are of same value type then we are use IIFE 
 
 
 
