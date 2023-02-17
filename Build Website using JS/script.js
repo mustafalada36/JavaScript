@@ -5,6 +5,10 @@
 	// console.log(This is called as DOM Manipulation in single page web application);
 
 	function saysomething(){
-		var message = document.getElementById("name");
+		var name = document.getElementById("name").value;
+
+		var message = "Hello" +name "!";
+
+			// document.getElementById("content").innerHTML;
 
 	}
