@@ -9,6 +9,6 @@
 
 		var message = "Hello" +name "!";
 
-			// document.getElementById("content").innerHTML;
+			 document.getElementById("content") = message;
 
 	}
