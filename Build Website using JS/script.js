@@ -13,4 +13,11 @@
 
 			 document.getElementById("content").innerHTML = message;
 
+
+			 if (name === "student && Student") {
+			 	var title  = document.querySelector("#title").textContent;
+			 	title += " and more Lecture:";
+			 	document.querySelector("#title").textContent = title;
+
+			 }
 	}
