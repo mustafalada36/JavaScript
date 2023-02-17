@@ -9,7 +9,7 @@
 
 		// var message = "<h2>Hello  " +name +" !</h2>";
 
-		var message =  name ;
+		var message = "<h2>" +name +"</h2>";
 
 			 document.getElementById("content").innerHTML = message;
 
