@@ -7,7 +7,9 @@
 	function saysomething(){
 		var name = document.getElementById("name").value;
 
-		var message = "<h2>Hello" +name +"!</h2>";
+		// var message = "<h2>Hello  " +name +" !</h2>";
+
+		var message =  name ;
 
 			 document.getElementById("content").innerHTML = message;
 
