@@ -13,7 +13,7 @@
 
 			 document.getElementById("content").innerHTML = message;
 
-
+			 //use three equal to comparison of ...
 			 if (name === "student " || name === "Student") {
 			 	var title  = document.querySelector("#title").textContent;
 			 	title += " and more Lecture:";
