@@ -4,7 +4,7 @@
 	// console.log(window.document.getElementById("name");
 	// console.log(This is called as DOM Manipulation in single page web application);
 
-	function saysomething(){
+	function saysomething(event){
 		var name = document.getElementById("name").value;
 
 		var message = "<h2>Hello  " +name +" !</h2>";
@@ -21,3 +21,9 @@
 
 			 }
 	}
+
+	//By Control handling
+		document.querySelector("button").addEventListener("click", saysomething);
+
+	//Second way
+	// document.querySelector("button").click = saysomething;
