@@ -1,4 +1,4 @@
-	
+	// Q1
 	// let a =prompt("Enter First Integer" );
 	//  // a =parseFloat(a);
 	
@@ -8,14 +8,18 @@
 	// const c = prompt("Multiplication is:",a*b) ;
 	// const d = prompt("Division is:",a/b);
 
+	// Q2
+ 	// function sumandtriple(num1,num2){
+ 	// 	var sum = num1+num2;
+ 	// 	if(num1 === num2){
+ 	// 		sum *=3;
+ 	// 	}
+ 	// 	document.write("Sum = " + sum);
+
+ 	//  };
+ 	//  sumandtriple(4,4)();
+ 	
+
 	
- 	function sumandtriple(num1,num2){
- 		let sum = num1+num2;
- 		if(num1 == num2){
- 			sum *=3;
- 		}
-
- 	 };
-
- 	 console.log("Sum is ", sum);
- 	 sumandtriple(4,5);
+  
+ 	 
