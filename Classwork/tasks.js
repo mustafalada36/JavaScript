@@ -1,10 +1,8 @@
 	// Q1
 	// let a =prompt("Enter First Integer" );
-	//  // a =parseFloat(a);
-	
+	//  // a =parseFloat(a);	
 	// let b=prompt("Enter Second Integer" );
 	//  // b =parseFloat(b);
-	
 	// const c = prompt("Multiplication is:",a*b) ;
 	// const d = prompt("Division is:",a/b);
 
@@ -25,7 +23,7 @@
 
 
 	// Q3
-	const par = document.getElementById("para");
-	par.style.backgroundColor = "Yellow";
+	// const par = document.getElementById("para");
+	// par.style.backgroundColor = "Yellow";
   
  	 
