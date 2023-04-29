@@ -27,3 +27,19 @@
 	// par.style.backgroundColor = "Yellow";
   
  	 
+
+ 	//Q4
+ 	function getnames(){
+
+ 		const firstname = document.getnamebyId("FirstName").value;
+ 		const lastname  = document.getnamebyId("LastName ").value;
+
+ 		return(firstname,lastname);
+ 	}
+ 	//call the function through action listener
+ 	const form = document.getnamebyId("myform");
+ 	form.addEventListener("Submit", function(event) {
+  	event.preventDefault();
+  	const names = getnames();
+  	console.log(names.firstname,names.lastname);
+  	});
