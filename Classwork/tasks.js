@@ -37,7 +37,7 @@
  		return(firstname,lastname);
  	}
  	//call the function through action listener
- 	const form = document.getnamebyId("myform");
+ 	const form = document.getnamebyId("myForm");
  	form.addEventListener("Submit", function(event) {
   	event.preventDefault();
   	const names = getnames();
