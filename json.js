@@ -1,1 +1,1 @@
-Json is string not javascript object literal used as by double "" quoatations.
+Json (Javascript object notation) is string not javascript object literal used as by double "" quoatations.
