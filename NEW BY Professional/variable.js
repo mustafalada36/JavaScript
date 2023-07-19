@@ -9,5 +9,7 @@ var dogSound = "woof";
 console.log(petDog,"dogSound");
 console.log(petCat,"catSound");
 var catSound = "meow";
-console.log(petCat,"catSound");
+console.log(petCat,"now says"  ,catSound);
 
+var score = 8;
+console.log("Mid-level skills:" ,score>0 && score<10);
