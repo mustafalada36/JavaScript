@@ -95,3 +95,4 @@ function manager() {
 
 console.log(intern());
 console.log(manager());
+//comment
