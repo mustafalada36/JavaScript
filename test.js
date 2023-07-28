@@ -24,13 +24,29 @@
 // var y=x;
 // console.log("After" +y)
 
-function Dog(name) {
-  this.name = name;
-}
+// function Dog(name) {
+//   this.name = name;
+// }
 
-Dog.prototype.bark = function () {
-  console.log(this.name + " likes barking! Bark!");
-}
+// Dog.prototype.bark = function () {
+//   console.log(this.name + " likes barking! Bark!");
+// }
 
-var max = new Dog("Max", "Buddy");
-max.bark();
+// var max = new Dog("Max", "Buddy");
+// max.bark();
+
+
+// const fruits = ['kiwi','mango','apple','pear'];
+// function appendIndex(fruit, index) {
+//     console.log(`${index}. ${fruit}`)
+// }
+
+//   fruits.forEach(appendIndex);
+
+
+let bestBoxers = new Map();
+bestBoxers.set(1, "The Champion");
+bestBoxers.set(2, "The Runner-up");
+bestBoxers.set(3, "The third place");
+
+console.log(bestBoxers);
