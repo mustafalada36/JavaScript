@@ -44,9 +44,44 @@
 //   fruits.forEach(appendIndex);
 
 
-let bestBoxers = new Map();
-bestBoxers.set(1, "The Champion");
-bestBoxers.set(2, "The Runner-up");
-bestBoxers.set(3, "The third place");
+// let bestBoxers = new Map();
+// bestBoxers.set(1, "The Champion");
+// bestBoxers.set(2, "The Runner-up");
+// bestBoxers.set(3, "The third place");
 
-console.log(bestBoxers);
+// console.log(bestBoxers);
+
+
+
+// class Animal {
+
+// }
+
+// class Dog extends Animal {
+//     constructor() {
+//         this.noise = "bark";
+//     }
+
+//     makeNoise() {
+//       return this.noise;
+//     }
+// }
+
+// class Wolf extends Dog {
+//     constructor() {
+//         super();
+//         this.noise = "growl";
+//     }
+// }
+
+// var result = new Wolf();
+// console.log(result.makeNoise());
+
+   function count(...food) {
+        console.log(food.length)
+    }
+
+    count("Burgers", "Fries", null);
+
+    const letter = "a";
+    letter = "b"
