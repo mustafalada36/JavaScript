@@ -169,12 +169,12 @@ function addTwo(a,b) {
 addTwo(5,"10")
 
 
-var cat = {}
-cat.sound = "meow"
-var catSound = "purr"
-console.log(cat.sound)
+// var cat = {}
+// cat.sound = "meow"
+// var catSound = "purr"
+// console.log(cat.sound)
 
-var veggies = []
-veggies.push('parsley')
-veggies.push('carrot')
-console.log(veggies[2])
+// var veggies = []
+// veggies.push('parsley')
+// veggies.push('carrot')
+// console.log(veggies[2])
