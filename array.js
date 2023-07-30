@@ -15,6 +15,7 @@
 	 //Another way for creating array
 
 	 var names = ["Ali", "Ahmad","Muhammad"];
+	 console.log(names);
 	 // var names = [{
 	 // 	name:"Ali"
 	 // }
