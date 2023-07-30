@@ -26,9 +26,9 @@
 	 // {
 	 // 	name:"Muhammad"
 	 // }];
-	  for(var name in names){
-	 	console.log("Hello:" +names[name]);
-	 }
+	//   for(var name in names){
+	//  	console.log("Hello:" +names[name]);
+	//  }
 
 	 // console.log(names[1].name);
 	 // var myObject = {
