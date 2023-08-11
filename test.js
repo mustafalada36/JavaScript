@@ -163,11 +163,11 @@
 // }
 
 
-function addTwo(a,b) {
-    return a + b
-}
-addTwo(5,"10")
-console.log(addTwo());
+// function addTwo(a,b) {
+//     return a + b
+// }
+// addTwo(5,"10")
+// console.log(addTwo());
 
 
 // var cat = {}
@@ -179,3 +179,16 @@ console.log(addTwo());
 // veggies.push('parsley')
 // veggies.push('carrot')
 // console.log(veggies[2])
+
+
+
+function find_max(nums) {
+     let max_num = Number.NEGATIVE_INFINITY; // smaller than all other numbers
+     for (let num of nums) {
+    if (num > max_num) {
+     // (Fill in the missing line here)
+     max_num+=num;
+    }
+    }
+    return max_num;
+    }
